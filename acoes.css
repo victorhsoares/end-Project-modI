@@ -1,0 +1,256 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.firstboxHeader__logo {
+	width: 50px;
+	height:50px;
+	margin-left: 40px;
+}
+.firstboxHeader__nav {
+	color: #E67816;
+	font-size: 25px;
+	padding: 10px;
+}
+.secondboxHeader__subnav{
+	background: #FFF974;
+	border-style: solid;
+	border-color: #7AC49F;
+	border-width: 2px;
+	display: flex;
+	justify-content: flex-end;
+}
+.secondboxHeader__nav{
+	padding: 20px;
+	color: #E67816;
+}
+.firstboxMain{
+	height: 67vh;
+	display: flex;
+	justify-content: space-between;	
+}
+.firstboxMain__imagem{
+	width: 500px;
+	padding:10px 10px 10px 0px;
+	margin-top: 50px;
+}
+.firstboxMain__paragraph1{
+	width: 430px;
+	padding-bottom: 10px;
+}
+.firstboxMain__text{
+	font-size: 13px;
+	width: 290px;
+	text-align: justify;
+	margin: 0px 0px 0px 40px;
+}
+.firstboxMain__text--title{
+	color: #00923F;
+	font-weight: bold;
+	font-size: 42px;
+	padding: 20px 0px 10px 25px;
+	margin-top: 40px;
+}
+.firstboxMain__paragraph{
+	 width: 500px;
+    padding: 20px 0px 20px 20px;
+}
+.secondboxMain{
+	display: flex;
+	justify-content: space-between;
+	background: #333333;
+}
+.secondboxMain__text{
+	color: #fff;
+}
+.secondboxMain__text--title{
+	font-size: 38px;
+	color: #85C226;
+}
+ .secondboxMain__picture--photo{
+ 	width: 500px;
+ 	height: 350px;
+ }
+ .coffeebox {
+ 	display: flex;
+ 	background-color: #333333;
+ }
+ .coffeebox__text{
+ 	padding: 50px;
+ }
+ .coffeebox__picture{
+ 	width: 600px;
+ 	padding: 40px 10px 15px 15px;
+ }
+ .coffeebox__title{
+ 	font-size: 38px;
+ 	color: #85C226;
+ }
+ .coffeebox__paragraph{
+ 	font-size: 18px;
+ 	width: 540px;
+ 	color: #fff;
+ }
+ .palestrabox{
+	display: flex;
+	justify-content: space-between;	
+	background-color: #FFF974;
+}
+.palestrabox__text{
+	font-size: 13px;
+	width: 290px;
+	text-align: justify;
+	margin: 0px 0px 0px 40px;
+}
+.palestrabox__text--title{
+	color: #00923F;
+	font-weight: bold;
+	font-size: 42px;
+	padding: 20px 0px 10px 25px;
+	margin-top: 40px;
+}
+.palestrabox__paragraph{
+	width: 430px;
+	padding-bottom: 10px;
+}
+.palestrabox__imagem{
+	width: 500px;
+	padding:10px 10px 10px 0px;
+	margin-top: 50px;
+}
+ .limpezabox{
+	display: flex;
+	justify-content: space-around;	
+	margin-top: 60px;
+    height: 60vh;
+	background-color: #FFF;
+}
+.limpezabox__text{
+	font-size: 13px;
+	width: 290px;
+}
+.limpezabox__text--title{
+	color: #00923F;
+	font-weight: bold;
+	font-size: 42px;
+}
+.limpezabox__paragraph{
+	width: 400px;
+}
+.limpezabox__picture{
+	width: 500px;
+}
+.aedesbox{
+	display: flex;
+	justify-content: space-around;
+	height: 60vh;	
+	background-color: #7AC49F;
+}
+.aedesbox__text{
+	font-size: 13px;
+	text-align: justify;
+	margin-top: 60px;
+}
+.aedesbox__text--title{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 42px;
+	width: 310px;
+}
+.aedesbox__paragraph{
+	width: 400px;
+	padding: 15px;
+}
+.aedesbox__picture{
+	width: 500px;
+	margin-top: 60px;
+}
+.coletabox{
+	display: flex;
+	justify-content: space-around;
+	height: 60vh;	
+	background-color: #85C226;
+}
+.coletabox__text{
+	font-size: 13px;
+	text-align: justify;
+	margin-top: 60px;
+}
+.coletabox__text--title{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 42px;
+}
+.coletabox__paragraph{
+	width: 400px;
+	color: #FFF;
+}
+.coletabox__picture{
+	width: 500px;
+}
+.coletabox__blockpicture{
+	margin-top: 60px;
+}
+.firstboxFooter{
+	display: flex;
+	justify-content: space-around;
+	color: #85C226;
+	background-color: #333333;
+}
+.firstboxFooter__title{
+	width: 30vw;
+	font-size: 25px;
+}
+.firstboxFooter__picture{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+.firstboxFooter__paragraphcolor{
+	color: #E67816;
+}
+.block{
+	display: flex;
+}
+.firstboxFooter__parceiros{
+	display: flex;
+	flex-direction: column;
+}
+.firstboxFooter__contato{
+	display: flex;
+	flex-direction: column;
+}
+.firstboxFooter__parceiros--first{
+	color: #E67816;
+}
+.firstboxFooter__parceiros--second{
+	color: #E67816;
+}
+.firstboxMain__paragraph--size{
+	font-size: 10px;
+	line-height: 3;
+	width: 200px;
+}
+.firstboxMain__paragraph--size2{
+	font-size: 10px;
+	width: 200px;
+}
+.firstboxMain__paragraph--redes{
+	padding: 5px;
+}
+.firstboxMain__paragraph--redes2{
+	padding: 5px;
+	color: #E67816;
+}
+.firstboxFooter__blockcont {
+	display: flex;
+	margin-top: 15px;
+}
